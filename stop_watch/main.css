@@ -1,0 +1,42 @@
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: rgb(87, 87, 245);
+}
+.cl-white{
+    color: white;
+}
+.main{
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.main .main-body{
+    border: 1px solid  rgb(10, 88, 62);
+    padding: 50px;
+    margin: 40px 300px ;
+}
+.head-title{
+    font-size: 50px;
+    color: rgb(24, 131, 95);
+}
+
+.main-body .button-control{
+    display: flex;
+    justify-content: center;
+}
+.button-control .button-item{
+    margin: 0 5px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.button-control .button-item:hover{
+
+    opacity: 0.7;
+}
