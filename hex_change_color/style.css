@@ -1,0 +1,35 @@
+.container{
+    width: 100vw;
+    margin-top: 200px;
+    justify-items: center;
+    align-items: center;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    animation: change-color 10s infinite;
+}
+.color-code{
+    margin-bottom: 20px;
+}
+
+@keyframes change-color{
+    0%{
+      color: blue;        
+    }
+    20%{
+      color: rgb(72, 255, 0);
+    }
+    40%{
+      color: rgb(215, 99, 21);
+    }
+    60%{
+      color: rgb(200, 20, 131);
+    }
+    80%{
+      color: rgb(185, 18, 18);
+    }
+    100%{
+      color: rgb(255, 242, 0);
+    }
+}
